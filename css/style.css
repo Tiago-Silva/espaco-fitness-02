@@ -109,6 +109,17 @@ span {
     box-shadow: 0 0 20px var(--main-color);
 }
 
+/* scrool bar*/
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    width: 50px;
+}
+
 /* section home */
 
 .home {
