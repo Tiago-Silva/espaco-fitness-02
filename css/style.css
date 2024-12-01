@@ -226,3 +226,30 @@ span {
     cursor: pointer;
 }
 
+/* about section */
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.about-img img {
+    width: 50vw;
+    border: 2px solid var(--text-color);
+}
+
+.about-content {
+    padding: 0 3rem;
+}
+
+.about-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 2rem;
+}
